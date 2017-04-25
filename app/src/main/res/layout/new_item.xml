@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/date_new_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="#000"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:text="- 11.1 - "/>
+
+    <RelativeLayout
+        android:layout_below="@id/date_new_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_new_item"
+
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#545454"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/title_new_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/iv_new_item"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="10dp"
+            android:text="「星球大战8」预告登场 黑暗原力卷土重来！"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#fff"/>
+        <TextView
+            android:id="@+id/time_new_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/iv_new_item"
+            android:layout_marginBottom="10dp"
+            android:layout_alignLeft="@id/title_new_item"
+            android:textColor="#fff"
+            android:text="预告 / 0'0"/>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

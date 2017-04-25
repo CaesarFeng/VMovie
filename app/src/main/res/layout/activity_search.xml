@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:background="#121212"
+    tools:context="com.jb.caesarfeng.vmovie.SearchActivity">
+
+    <Button
+        android:id="@+id/cancel_search"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:text="取消"/>
+    <EditText
+        android:textCursorDrawable="@null"
+        android:layout_toLeftOf="@id/cancel_search"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:hint="请输入要搜索的内容"
+        android:layout_alignBaseline="@id/cancel_search"
+        android:drawableLeft="@mipmap/abc_ic_search_api_mtrl_alpha"
+        android:padding="5dp"
+        android:textSize="12sp"
+        android:textColor="#fff"
+        android:background="@drawable/cancel_but_shape"/>
+
+</RelativeLayout>

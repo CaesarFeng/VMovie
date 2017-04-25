@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">V电影</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_film_second"></string>
+    <string name="title_activity_no_video_second"></string>
+    <string name="title_activity_channel2"></string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+</resources>
